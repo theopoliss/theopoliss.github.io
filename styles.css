@@ -2,9 +2,13 @@ body {
     background-color: #1F271B;
 }
 
+.hpc-logo-top {
+    padding-left: 150px;
+}
 
 .image {
     animation: rotation 4s infinite linear;
+    width: 400px;
 }
 
 @keyframes rotation {
@@ -19,6 +23,7 @@ body {
 
 .loading {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150px;
 }
 
 .welcome {
