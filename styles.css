@@ -3,7 +3,7 @@ body {
 }
 
 .hpc-logo-top {
-    padding-left: 60px;
+    padding-left: 30px;
 }
 
 .image {
@@ -23,7 +23,7 @@ body {
 
 .loading {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .welcome {
