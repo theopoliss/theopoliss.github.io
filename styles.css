@@ -3,11 +3,11 @@ body {
 }
 
 .hpc-logo-top {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .image {
-    animation: rotation 4s infinite linear;
+    animation: rotation 3s infinite linear;
     width: 200px;
 }
 
@@ -19,7 +19,6 @@ body {
       transform: rotate(359deg);
     }
 }
-
 
 .loading {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -40,7 +39,7 @@ body {
 
 .loading::after {
     display: inline-block;
-    animation: dotty steps(1,end) 1s infinite;
+    animation: dotty steps(1,end) 1.5s infinite;
     content: '';
   }
   
