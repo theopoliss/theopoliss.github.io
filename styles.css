@@ -7,7 +7,7 @@ body {
 }
 
 .image {
-    animation: rotation 3s infinite linear;
+    animation: rotation 4s infinite linear;
     width: 200px;
 }
 
