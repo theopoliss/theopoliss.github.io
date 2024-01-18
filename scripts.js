@@ -7,6 +7,16 @@ document.getElementById('passwordForm').addEventListener('submit', function(even
 
     if (password == '215') {
         window.location.href = 'homepage.html'; // Redirect to the content page
+    } else {
+        // Show shake animation
+        passwordInput.classList.add('shake');
+
+        // Remove the class after animation ends (0.82s is the animation duration)
+        setTimeout(() => {
+            passwordInput.classList.remove('shake');
+        }, 820);
+
+        document.getElementById('message').innerHTML = '<p>Incorrect Passcode</p>';
     }
 });
 
@@ -22,24 +32,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.getElementById('passwordForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    var passwordInput = document.getElementById('passwordInput');
-    var password = passwordInput.value;
-
-    if (password == '215') {
-        window.location.href = 'homepage.html';
-    } else {
-        // Show shake animation
-        passwordInput.classList.add('shake');
-
-        // Remove the class after animation ends (0.82s is the animation duration)
-        setTimeout(() => {
-            passwordInput.classList.remove('shake');
-        }, 820);
-
-        document.getElementById('message').innerHTML = '<p>Incorrect Passcode</p>';
-    }
-});
 
