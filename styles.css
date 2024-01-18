@@ -2,6 +2,90 @@ body {
     background-color: #1F271B;
 }
 
+#message {
+    font-size: 20px;
+    color: white;
+}
+
+.password {
+
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs button, .inputs input {
+    background-image: initial;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+
+    /* font-weight: 700; */
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: #fff;
+
+    text-transform: lowercase;
+
+    outline: none;
+
+    /* border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: initial; */
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(10px);
+    }
+}
+
+.shake {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+
+
+
+
+
+
+
 .hpc-logo-top {
     padding-left: 20px;
 }
