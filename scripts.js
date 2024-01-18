@@ -32,4 +32,14 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    const loadingDots = document.querySelector('.loading-dots');
+    let dotCount = 0;
+
+    setInterval(() => {
+        loadingDots.textContent = '.'.repeat(dotCount % 4);
+        dotCount++;
+    }, 500); // Adjust time as needed
+});
+
 
