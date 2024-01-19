@@ -84,7 +84,7 @@ body {
 
 .image {
     animation: rotation 4s infinite linear;
-    width: 300px;
+    width: 200px;
 }
 
 @keyframes rotation {
